@@ -71,42 +71,59 @@ function renderLicenseBadge(license) {
   ## DESCRIPTION
   ${data.description}
 
-  ### Motivation: What was motivated you for this Project?
+  ## Motivation:
   ${data.motivation}
 
-  ### Problem-Solve: What problems does your project solve?
+  ## Problem-Solve: What problems does your project solve?
   ${data.problemsolve}
 
-  ### INSTALLATION 
-  To install this project, clone the repository and run the following command:
-  ${data.installation}
+  ## INSTALLATION 
+  To install this project,
+  Clone the repository by running the following command:
+  
+  git clone ${data.installation}
 
   ## USAGE 
-  After Installation run 
+  Navigate to cloned repository by running:
+
+  cd module-07
+
+  ### Install Dependencies 
+  By running the following command: 
+
   ${data.usage}
 
-  ##CONTRIBUTING 
-  ${data.constribution}
+  Navigate to index.js file by running the following command:
+  cd Develop/utils
+
+  *Be sure that your pwd (present-working-directory) matches the path to the index.js file.* 
+  
+  To START CODE run the following command:
+  node index.js
+
+  ## CONTRIBUTIONS
+  ${data.contributions}
 
   ## Tests
   To ensure that the generator functions correctly run
+  ${data.usage}
+
+  Then run the following command:
   ${data.tests}
 
   ## QUESTIONS
 
   ### COLLABORATORS
-  collaborators include:
   ${data.collab}
 
-  ### Github Username
+  ## Github Username
   [${data.githubUsername}](https://github.com/${data.githubUsername})
 
-  ### Contact Email AddressÍ
+  ## Contact Email AddressÍ
   [${data.email}](mailto:${data.email})
 
   ## This application is covered under:
-  ${licenseSection}
-    Í    
+  ${licenseSection}   
   `;
   }
   

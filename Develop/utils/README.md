@@ -1,7 +1,7 @@
 # Project Title: README GENERATOR
     
   ## BADGES
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## Table of Contents
   [Description](#description)
@@ -16,43 +16,60 @@
   [License](#license)
 
   ## DESCRIPTION
-  This project uses  node.js  to generate a README file.The files can include Documentation, Installation Instructions, Usage, Contributing guidelines and Licensing information. Which helps the user and develops understand the project qui
+  THIS PROJECT USES NODE.JS TO GENERATE A README.md FILE WHICH INCLUDES DOCUMENTATION INSTALLATION INSTRUCTIONS, USAGE, CONTRIBUTIONS AND LICENSE
 
-  ### Motivation: What was motivated you for this Project?
-   Motivation for this project can be pulled from several factors, such as clarity for users by helping users quickly understand a project, facility of collaborations, as well as automated tools, libraries like nom or git often leverage READMe file for documentation 	purposes making them essential for effective project management. 
+  ## Motivation:
+   CLARITY FOR USERS, FACILITATION OF COLLABORATIONS, EFFECTIVE PROJECT MANAGEMENT
 
-  ### Problem-Solve: What problems does your project solve?
-  Problems, that can be solved as a result of this project include, lack of clarity, onboarding difficulties and project management.
+  ## Problem-Solve: What problems does your project solve?
+  LACK OF CLARITY, ONBOARDING DIFFICULTY, PROJECT MANAGEMENT
 
-  ### INSTALLATION 
-  To install this project, clone the repository and run the following command:
-  clone tjeis rep 
+  ## INSTALLATION 
+  To install this project,
+  Clone the repository by running the following command:
+  
+  git clone git@github.com:arstanciel/module-07.git
 
   ## USAGE 
-  After Installation run 
-  cd into new directory run node index.js
+  Navigate to cloned repository by running:
 
-  ##CONTRIBUTING 
-  undefined
+  cd module-07
+
+  ### Install Dependencies 
+  By running the following command: 
+
+  npm install
+
+  Navigate to index.js file by running the following command:
+  cd Develop/utils
+
+  *Be sure that your pwd (present-working-directory) matches the path to the index.js file.* 
+  
+  To START CODE run the following command:
+  node index.js
+
+  ## CONTRIBUTIONS
+  If you would like to contribute, please fork the repository, create a feature branch, and submit a pull request.
 
   ## Tests
   To ensure that the generator functions correctly run
-  Run npm install to install all dependencies then run npm test
+  npm install
+
+  Then run the following command:
+  npm test
 
   ## QUESTIONS
 
   ### COLLABORATORS
-  collaborators include:
-  arstanciel
+  NO COLLABORATORS AT THIS TIME
 
-  ### Github Username
-  [agithub](https://github.com/agithub)
+  ## Github Username
+  [arstanciel](https://github.com/arstanciel)
 
-  ### Contact Email AddressÍ
-  [atgithub.com](mailto:atgithub.com)
+  ## Contact Email AddressÍ
+  [alexisreneeksl@gmail.com](mailto:alexisreneeksl@gmail.com)
 
   ## This application is covered under:
   ## License
-  This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.
-    Í    
+  This project is licensed under the Apache 2.0 license. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.   
   

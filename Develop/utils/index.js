@@ -44,19 +44,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'collab',
-        message: 'Are there any collaborators for this project?'
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'What license does your project use?',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None']
+        name: 'tests',
+        message: 'What are the test instructions?'
     },
     {
         type: 'input',
-        name: 'tests',
-        message: 'What are the test instructions?'
+        name: 'collab',
+        message: 'Are there any collaborators for this project?'
     },
     {
         type: 'input',
@@ -67,6 +61,12 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What license does your project use?',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None']
     }
 ];
 
