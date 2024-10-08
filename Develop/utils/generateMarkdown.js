@@ -71,19 +71,19 @@ function renderLicenseBadge(license) {
   ## DESCRIPTION
   ${data.description}
 
-  ## Motivation:
+  ### Motivation:
   ${data.motivation}
 
   ## Problem-Solve: What problems does your project solve?
   ${data.problemsolve}
 
-  ## INSTALLATION 
+  ### INSTALLATION 
   To install this project,
+
   Clone the repository by running the following command:
-  
   git clone ${data.installation}
 
-  ## USAGE 
+  ### USAGE 
   Navigate to cloned repository by running:
 
   cd module-07
@@ -101,11 +101,12 @@ function renderLicenseBadge(license) {
   To START CODE run the following command:
   node index.js
 
-  ## CONTRIBUTIONS
+  ### CONTRIBUTIONS
   ${data.contributions}
 
-  ## Tests
-  To ensure that the generator functions correctly run
+  ### Tests
+  To ensure that the generator functions correctly run the following command:
+
   ${data.usage}
 
   Then run the following command:
@@ -116,13 +117,13 @@ function renderLicenseBadge(license) {
   ### COLLABORATORS
   ${data.collab}
 
-  ## Github Username
+  ### Github Username
   [${data.githubUsername}](https://github.com/${data.githubUsername})
 
-  ## Contact Email AddressÍ
+  ## Contact Email Address
   [${data.email}](mailto:${data.email})
 
-  ## This application is covered under:
+  ### This application is covered under:
   ${licenseSection}   
   `;
   }
